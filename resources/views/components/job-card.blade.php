@@ -10,6 +10,6 @@
             <x-tag>Tag</x-tag>
             <x-tag>Tag</x-tag>
         </div>
-        <img class="rounded-xl" src="http://placehold.it/42/42" alt="Laracast" />
+        <img class="rounded-xl" src="https://placehold.it/42/42/" alt="Laracast" />
     </div>
 </div>
