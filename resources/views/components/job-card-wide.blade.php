@@ -1,3 +1,5 @@
+@props(['job'])
+
 <x-card class="flex gap-x-6">
     <div>
         <x-employer-logo />
@@ -8,8 +10,8 @@
         <p class="text-sm text-gray-400 mt-auto">Full Time - From $60,000</p>
     </div>
     <div>
-        <x-tag>Tag</x-tag>
-        <x-tag>Tag</x-tag>
-        <x-tag>Tag</x-tag>
+        @foreach ($job->tags as $tag)
+            <x-tag :$tag />
+        @endforeach
     </div>
 </x-card>
